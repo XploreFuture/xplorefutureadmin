@@ -19,7 +19,7 @@ const InstitutionList = () => {
   useEffect(() => {
     const fetchInstitutions = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/institutions");
+        const response = await fetch("http://31.97.205.152/api/institutions");
         if (!response.ok) throw new Error("Failed to fetch institutions");
   
         const data: { institutions: Institution[] } = await response.json();

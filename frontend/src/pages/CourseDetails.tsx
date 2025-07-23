@@ -19,7 +19,7 @@ const CourseDetail: React.FC = () => {
   useEffect(() => {
     const fetchCourseDetail = async () => {
       try {
-        const res = await axios.get(`http://localhost:5000/api/courses/${slug}`);
+        const res = await axios.get(`http://31.97.205.152/api/courses/${slug}`);
         setCourseDetail(res.data);
       } catch (err) {
         console.error("Error fetching course detail:", err);

@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import type { LoginRequest, LoginResponse, ApiErrorResponse } from '../types/api';
 import { setAccessTokenAndDispatch } from '../utils/auth';
 
-const BACKEND_URL = 'http://localhost:5000';
+const BACKEND_URL = 'http://31.97.205.152:5000';
 
 const Login: React.FC = () => {
     const [email, setEmail] = useState('');

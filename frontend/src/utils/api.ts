@@ -5,7 +5,7 @@ import type { ApiErrorResponse } from '../types/api';
 
 // Define the base URL for your backend API
 // Ensure this matches the port your Node.js server is running on
-const BACKEND_URL = 'http://localhost:5000';
+const BACKEND_URL = 'http://31.97.205.152:5000';
 
 /**
  * Utility function to request a new access token using the refresh token.

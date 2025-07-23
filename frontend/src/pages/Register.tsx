@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import type { RegisterRequest, RegisterResponse, ApiErrorResponse } from '../types/api';
 
-const BACKEND_URL = 'http://localhost:5000';
+const BACKEND_URL = 'http://31.97.205.152:5000';
 
 const Register: React.FC = () => {
     const [username, setUsername] = useState('');
